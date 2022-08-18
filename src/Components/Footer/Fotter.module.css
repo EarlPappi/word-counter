@@ -1,0 +1,15 @@
+.footerCon{
+    padding: 2em 0;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+@media (min-width: 767px) {
+    .footerCon{
+        font-size: 1rem;
+    }
+}
+
+span{
+    font-weight: 300;
+}

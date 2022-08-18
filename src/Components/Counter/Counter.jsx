@@ -4,15 +4,10 @@ import classes from "./Counter.module.css"
 
 const Counter = () => {
     const [userInput, setUserInput] = useState('');
-    console.log(userInput.split(" "))
-    console.log(userInput.split(" ").join('.'))
-    console.log(userInput.split(" ").join('').length)
 
 
     const handleCount = (e) => {
         e.preventDefault();
-        // ~
-        console.log(userInput.length);
     }
 
     return (

@@ -1,13 +1,26 @@
 .counterCon{
     background-color: white;
+    padding: 1em 0;
 }
 
-.counterHead{
+@media (min-width: 767px) {
+    .counterCon{
+        padding: 2em 0;
+    }
+}
+
+.counterHead{display: flex;
+    gap: 2em;
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+@media (min-width: 767px) {
+    .counterHead{        
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
-    padding: 2em 0;
-    
+    }
 }
 
 .countIn{
@@ -19,6 +32,8 @@
 textarea{
     width: 100%;
     padding: 1em;
+    height: 50vh;
+    resize: none;
 }
 
 textarea::placeholder{
