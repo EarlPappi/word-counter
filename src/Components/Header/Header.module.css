@@ -1,0 +1,11 @@
+.headerCon{
+    padding: 2em 0;
+}
+
+.headerCon h1{
+    font-weight: 600;
+}
+
+.headerCon span{
+    font-weight: 300;
+}

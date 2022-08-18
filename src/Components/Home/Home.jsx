@@ -1,12 +1,11 @@
 import Counter from "../Counter/Counter";
 import Header from "../Header/Header";
+import classes from "./Home.module.css"
 
 const Home = () => {
     return ( 
-        <div>
+        <div className= { classes.home }>
             <Header/>
-            <h1>This is Home</h1>
-
             <Counter/>
         </div>
      );

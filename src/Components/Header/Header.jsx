@@ -1,12 +1,13 @@
 import Wrapper from "../Comps/Wrapper";
+import classes from "./Header.module.css"
 
 const Header = () => {
     return ( 
-        <div>
+        <header className={ classes.headerCon }>
             <Wrapper>
-                <h1>This Header</h1>
+                <h1>Word Count<span>Earl</span></h1>
             </Wrapper>
-        </div>
+        </header>
      );
 }
  
